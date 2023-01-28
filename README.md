@@ -32,3 +32,14 @@ The DB’s managed by the backend are - Login/Warehouse/Item/Business/Distance a
 6. POST Login 
 7. POST Cost Estimation API for ML model. 
 
+
+How to setup on your system 
+install python dependencies like numpy,pandas,flask,sklearn,jupyter,uicorn,gunicorn
+install node js,nodemon
+
+and start your server using the following commands
+
+ uvicorn mlapi:app --reload
+ nodemon index.js
+
+
